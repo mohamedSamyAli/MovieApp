@@ -1,0 +1,13 @@
+.toggle-filter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.toggle-filter-option{
+    cursor: pointer;
+}
+.toggle-filter-option.selected{
+    background-color: rgb(131, 65, 65);
+    box-shadow: 0px 0px 16px 14px rgb(100 0 0 / 20%);
+}

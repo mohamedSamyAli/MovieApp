@@ -7,7 +7,6 @@ import { baseURL , apiKey  } from '../BackendConstantes';
 const instance = axios.create(); 
 
 instance.defaults.baseURL = baseURL
-debugger
 instance.defaults.params = {}
 instance.defaults.params["api_key"]  = apiKey // add api_key to all requests query params
 

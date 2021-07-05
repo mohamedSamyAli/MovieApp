@@ -1,15 +1,65 @@
 .main-header{
-
-    animation: app-name-start-animation 1s ease-in 0s 1 normal backwards;
+    margin:0px;
+    animation: app-name-start-animation 1.5s ease-in 0s 1 normal backwards;
 }
 
 
 @keyframes app-name-start-animation{
     0%{
-        letter-spacing: 3vw;  
+        letter-spacing: .1vw;  
     }
 
     100%{
         letter-spacing:normal;  
     }
 }
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: arial;
+    text-align: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  ul.topnav li {float: left;}
+  ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    font-size: 17px;
+    border-right: 1px solid #bbb;
+  }
+
+  ul.topnav li h1 {
+    display: block;
+    text-align: center;
+    padding: 6px 16px;
+    text-decoration: none;
+  }
+  ul.topnav li a:hover:not(.active) {
+      background-color: #ddd;
+      color: black;
+  }
+  ul.topnav li a.active {
+      background-color: #4CAF50;
+  }
+  ul.topnav li.right {
+      float: right;
+  }
+  @media screen and (max-width: 720px) {
+    ul.topnav li{
+        width: 100%;
+    }
+    ul.topnav a{
+        width: 100%;
+    }
+  }

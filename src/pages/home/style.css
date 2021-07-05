@@ -1,0 +1,29 @@
+
+  .home__filter-search-component{
+    display: flex;
+    align-items: baseline;
+    margin: 10px;
+  }
+  
+  .home__search-component{
+    width: 50%;
+  }
+  
+  .home__filters{
+    width: 50%; 
+  }
+  
+  .home-movie-card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  @media  (max-width: 720px) {
+    .home__filters{
+    width: 100%; 
+  }
+  .home__search-component{
+    width: 100%;
+  }
+  }
