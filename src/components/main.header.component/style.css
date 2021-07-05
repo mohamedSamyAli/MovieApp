@@ -1,0 +1,15 @@
+.main-header{
+
+    animation: app-name-start-animation 1s ease-in 0s 1 normal backwards;
+}
+
+
+@keyframes app-name-start-animation{
+    0%{
+        letter-spacing: 3vw;  
+    }
+
+    100%{
+        letter-spacing:normal;  
+    }
+}
