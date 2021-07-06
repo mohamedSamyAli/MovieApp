@@ -4,4 +4,36 @@ margin: 10px;
 .movie-card-img{
     height: 18.8rem;
     width: 12.44rem;
+    background-size: cover;
+
+}
+.movie-card-name{
+    justify-content: center;
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+}
+
+.movie-card-name:hover{
+    background-image: linear-gradient(45deg, black, transparent);
+}
+
+.movie-card-name:hover div{
+color: white;
+}
+
+.movie-card-btn{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    display: block;
+    border: 0;
+    height: 1.5rem;
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+.movie-card-btn.favorit{
+    background-color: rgb(205, 125, 50);
 }

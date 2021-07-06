@@ -19,7 +19,19 @@
     flex-wrap: wrap;
   }
 
-  @media  (max-width: 720px) {
+  @media  (max-width: 850px) {
+    .home__filters{
+    width: 100%; 
+  }
+  .home__search-component{
+    width: 100%;
+  }
+  .home__filter-search-component {
+  flex-direction: column-reverse;
+  }
+  }
+
+  @media  (max-width: 450px) {
     .home__filters{
     width: 100%; 
   }

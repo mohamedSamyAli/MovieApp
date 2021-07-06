@@ -21,7 +21,7 @@ let cancleTokenSource; // store cancle token for previes request to cancle when 
 export const searchMoviesByNameAndPage = (name, pageNumber) => {
     
     if (cancleTokenSource?.cancel) {
-        cancleTokenSource.cancel('test cancellation') // cancle previous request 
+        cancleTokenSource.cancel('cancellation') // cancle previous request 
     }
     
     cancleTokenSource = Axios.CancelToken.source(); // get new cancle token Source

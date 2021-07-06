@@ -14,7 +14,7 @@ export const FavoritsPage = () => {
         <>
             <div className="favorit-movie-card-container">
                 {
-                    movieData.map(e => <MovieCard
+                    movieData.map(e => <MovieCard key={e.id}
                         setFavoritIdsObject={setFavoritIdsObject}
                         isFavourit={favoritIdsObject[e.id]}
                         movieData={e}

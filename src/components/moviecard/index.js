@@ -18,16 +18,20 @@ const handleremoveFromFavorites = ()=>{
         >
             <div className="movie-card-img" style={{ backgroundImage: `url(${imgUrl + movieData.poster_path})` }}>
                 <div className="movie-card-name">
+                    <div>
                     {movieData.title}
+                    </div>
                 </div>
             </div>
             <div className="movie-card-favorit-action">
                 {isFavourit?
                 <button
+                className="movie-card-btn"
                 onClick={handleremoveFromFavorites}
                 >remove From Favorites</button>
                 :
                 <button
+                className="movie-card-btn favorit"
                 onClick={handleAddtoFavorites}
                 >Add To Favorites</button>}
             </div>

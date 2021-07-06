@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { MainHeader } from "./components/main.header.component/index"
-import { MainPage } from "./pages/home"
+import { MainPage } from "./pages/mainPage"
 import { FavoritsPage } from "./pages/favourit"
 
 

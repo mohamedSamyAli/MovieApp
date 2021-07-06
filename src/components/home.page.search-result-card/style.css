@@ -1,0 +1,16 @@
+.search-result-card-container{
+display: flex;
+margin: 1px;
+}
+.search-result-card-container:hover{
+    background-color: white;
+    cursor: pointer;
+    }
+.search-result-card-img{
+    width: 1rem;
+    height: 2rem;
+    background-size: cover;
+}
+.search-result-card-title{
+    
+}
